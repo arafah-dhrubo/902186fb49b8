@@ -26,7 +26,11 @@ cd ios && pod install && cd ..
 # Run the app
 flutter run
 ```
+---
 
+## Platforms
+- **iOS**: Tested on iPhone 14 Pro (Physical), iPhone 15 Pro Max (Physical), iPhone 16
+- **Android**: Tested on Pixel 9 Pro, Realme X (Physical), Redmi note 10 Pro (Physical)
 ---
 
 ## Tech Stack
@@ -68,3 +72,4 @@ flutter run
 
 > [!IMPORTANT]
 > This project was done in a device that which has all the latest SDKs installed. Old SDKs may not work. If not working, please update the SDKs to the latest version.
+
