@@ -71,5 +71,5 @@ flutter run
 ---
 
 > [!IMPORTANT]
-> This project was done in a device that which has all the latest SDKs installed. Old SDKs may not work. If not working, please update the SDKs to the latest version.
+> This project was done on a device that has all the latest SDKs installed. Old SDKs may not work. If not working, please update the SDKs to the latest version.
 
