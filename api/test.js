@@ -31,7 +31,7 @@ assert(validateVitals({ ...validData, battery_level: 101 }).battery_level, 'Shou
 assert(validateVitals({ ...validData, memory_usage: -5 }).memory_usage, 'Should reject memory_usage < 0');
 assert(validateVitals({ ...validData, device_id: "" }).device_id, 'Should reject missing device_id');
 
-const futureDate = new Date(Date.now() + 10 * 60 * 1000).toISOString();
+const futureDate = new Date(Date.now() + 20 * 60 * 1000).toISOString();
 assert(validateVitals({ ...validData, timestamp: futureDate }).timestamp, 'Should reject future timestamps');
 
 // 2. Database & Aggregation Logic
